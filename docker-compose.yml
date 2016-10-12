@@ -11,7 +11,7 @@ services:
    - MYSQL_USER=ghost
    - MYSQL_PASSWORD=password
  ghost:  
-  build: ./ghost
+  build: .
   container_name: ghost-local
   depends_on:
     - mysql
